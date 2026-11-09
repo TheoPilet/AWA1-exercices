@@ -1,0 +1,20 @@
+{
+  "name": "awa1-projet-individuel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "server": "node server/index.js",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "vue": "^3.5.13",
+    "gsap": "^3.12.5"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "@vitejs/plugin-vue": "^5.2.1"
+  }
+}

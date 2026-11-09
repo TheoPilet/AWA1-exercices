@@ -1,0 +1,1 @@
+body{font:20px system-ui;background:#faf7f2;color:#222;margin:3rem}button{display:block;margin:1.5rem 0;padding:1.2rem;cursor:pointer;position:relative;transition:left .5s,transform .5s}.left{left:0}.left:hover,.left:focus-visible{left:110px}.transform:hover,.transform:focus-visible{transform:translateX(110px)}@media(prefers-reduced-motion:reduce){button{transition:none}}

@@ -1,0 +1,5 @@
+*{box-sizing:border-box}body{font-family:system-ui,Arial,sans-serif;background:#101b2c;color:#f1f5fa;margin:0}main{max-width:900px;margin:60px auto;padding:24px}button{padding:14px 20px;border:0;border-radius:8px;background:#54d5b4;color:#10202d;cursor:pointer;font-weight:700}.card{padding:38px;background:#26517c;border-radius:18px;width:280px;text-align:center;margin:35px 0}.muted{color:#a8b9cd}.space{height:75vh}.reveal{opacity:0;transform:translateY(50px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:translateY(0)}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
+svg{max-width:100%}.route{fill:none;stroke:#54d5b4;stroke-width:8;stroke-linecap:round;stroke-dasharray:370;stroke-dashoffset:370;animation:draw 3s ease-in-out infinite alternate}@keyframes draw{to{stroke-dashoffset:0}}
+
+/* Étape pédagogique 0 */
+.route{animation:none!important;stroke-dasharray:none!important;stroke-dashoffset:0!important}
