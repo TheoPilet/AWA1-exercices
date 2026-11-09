@@ -1,5 +1,91 @@
-*{box-sizing:border-box}body{font-family:system-ui,Arial,sans-serif;background:#101b2c;color:#f1f5fa;margin:0}main{max-width:900px;margin:60px auto;padding:24px}button{padding:14px 20px;border:0;border-radius:8px;background:#54d5b4;color:#10202d;cursor:pointer;font-weight:700}.card{padding:38px;background:#26517c;border-radius:18px;width:280px;text-align:center;margin:35px 0}.muted{color:#a8b9cd}.space{height:75vh}.reveal{opacity:0;transform:translateY(50px);transition:opacity .7s,transform .7s}.reveal.visible{opacity:1;transform:translateY(0)}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.reveal{opacity:1;transform:none}}
-.badge-demo{animation:pop 1.2s ease-in-out infinite alternate}@keyframes pop{from{transform:scale(.96);opacity:.6}to{transform:scale(1.05);opacity:1}}
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: system-ui, Arial, sans-serif;
+    background: #101b2c;
+    color: #f1f5fa;
+    margin: 0
+}
+
+main {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 24px
+}
+
+button {
+    padding: 14px 20px;
+    border: 0;
+    border-radius: 8px;
+    background: #54d5b4;
+    color: #10202d;
+    cursor: pointer;
+    font-weight: 700
+}
+
+.card {
+    padding: 38px;
+    background: #26517c;
+    border-radius: 18px;
+    width: 280px;
+    text-align: center;
+    margin: 35px 0
+}
+
+.muted {
+    color: #a8b9cd
+}
+
+.space {
+    height: 75vh
+}
+
+.reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity .7s, transform .7s
+}
+
+.reveal.visible {
+    opacity: 1;
+    transform: translateY(0)
+}
+
+@media(prefers-reduced-motion:reduce) {
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+        scroll-behavior: auto !important
+    }
+
+    .reveal {
+        opacity: 1;
+        transform: none
+    }
+}
+
+.badge-demo {
+    animation: pop 1.2s ease-in-out infinite alternate
+}
+
+@keyframes pop {
+    from {
+        transform: scale(.96);
+        opacity: .6
+    }
+
+    to {
+        transform: scale(1.05);
+        opacity: 1
+    }
+}
 
 /* Étape pédagogique 0 */
-.badge-demo{animation:none!important}
+.badge-demo {
+    animation: none !important
+}
