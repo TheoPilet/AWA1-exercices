@@ -26,3 +26,7 @@ Il a deux classes. `card` donne l'apparence (fond bleu, coins arrondis) et `badg
 
 - État de départ : légèrement rétréci (96 %) et semi-transparent (60 %).
 - État d'arrivée : légèrement agrandi (105 %) et totalement opaque.
+
+L'application (style.css:72-74) utilise le raccourci animation :
+
+animation: pop 1.2s ease-in-out infinite alternate
