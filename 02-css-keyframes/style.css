@@ -69,10 +69,6 @@ button {
     }
 }
 
-.badge-demo {
-    animation: pop 1.2s ease-in-out infinite alternate
-}
-
 @keyframes pop {
     from {
         transform: scale(.96);
